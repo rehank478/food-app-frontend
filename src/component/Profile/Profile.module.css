@@ -1,0 +1,89 @@
+.profile{
+  background-color: #3f3f3f;
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: -100px;
+}
+
+.Table table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+    color: black;
+    margin: auto;
+  }
+  
+  .Table td, th {
+    border: 1px solid #030000;
+    text-align: left;
+    color: black;
+    padding: 8px;
+  }
+
+  .orders{
+      color: black;
+      width: 500px;
+      padding: 20px;
+      margin-top: 50px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 10px;
+        height: auto;
+        background-color: lightcyan;
+  }
+  
+  .prev{
+    display: inline-flex;
+    justify-content: space-between;
+    color: black;
+  }
+  
+  .previous{
+    /* opacity: 0.7; */
+    /* background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
+    background-size: 110px 200px;
+    background-repeat: repeat-x; */
+    color: white;
+    overflow-x: scroll;
+  }
+  
+
+  .previous h1{
+    position: absolute;
+    margin: auto;
+    z-index: 100px;
+  }
+  
+  .details{
+    color: black;
+    text-align: center;
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    transition: 0.3s;
+    color: white;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  ::-webkit-scrollbar {
+    background-color: #aaa; /* or add it to the track */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: 0 0 2px rgba(255, 255, 255, .5);
+  }

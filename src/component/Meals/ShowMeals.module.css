@@ -1,0 +1,46 @@
+.card{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  margin: 10px;
+}
+
+  .addButton button {
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .add {
+    background-color: grey;
+    color: white;
+    border: 2px solid #555555;
+  }
+  
+  .add:hover {
+    background-color: #555555;
+    color: black;
+  }
+
+  .meal h3 {
+    margin: 0.5rem;
+  }
+  
+  .description {
+    font-style: italic;
+    margin-left: 5px;
+  }
+  
+  .price {
+    margin-top: 0.25rem;
+    font-weight: bold;
+    color: #ad5502;
+    font-size: 1.25rem;
+    margin-left: 5px;
+  }

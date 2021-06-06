@@ -1,0 +1,58 @@
+.Modal {
+    margin-top: 200px !important;
+    margin: auto;
+    background-color: #3f3f3f;;
+    color: white !important;
+    width: 50%;
+    height: 50%;
+  }
+
+
+
+  .items{
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .items h3{
+      display: inline;
+  }
+
+  .actions{
+      margin: 10;
+  }
+
+  .Table{
+    height: 70%;
+    overflow-y: scroll;
+    color: white;
+  }
+
+  .Table table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 50%;
+    color: white;
+  }
+  
+  .Table td, th {
+    border: 1px solid #cebbbb;
+    text-align: left;
+    padding: 8px;
+    color: white !important;
+  }
+  
+
+
+  .but{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+

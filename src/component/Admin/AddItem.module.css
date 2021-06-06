@@ -1,0 +1,17 @@
+.Form {
+    background-color: aliceblue;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: Blue;
+    border-radius: 10px;
+}
+
+.but{
+    margin-top: 20px;
+}
+
+.error{
+    color: red;
+}

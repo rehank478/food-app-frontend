@@ -48,7 +48,7 @@
     radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
     background-size: 110px 200px;
     background-repeat: repeat-x; */
-    color: white;
+    color: black;
     overflow-x: scroll;
   }
   
